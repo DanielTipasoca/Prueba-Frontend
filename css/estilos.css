@@ -1,0 +1,49 @@
+#contact-form fieldset {
+    width: 34%;
+}
+
+#contact-form li {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-form input:not([type="submit"]),
+textarea,
+select {
+    margin-top: 25px;
+    text-align: left;
+    border-bottom: blue 0.2rem solid;
+    border-top: 0 #fff solid;
+    border-left: 0 #fff solid;
+    border-right: 0 #fff solid;
+}
+
+input:not([type="submit"]) textarea:focus,
+select:focus {
+    border-bottom: red 1rem solid;
+    margin-left: 6.5rem;
+    text-align: left;
+    border-bottom: 6px red;
+    outline: 0px;
+}
+
+#contact-form textarea {
+    margin-left: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+#contact-form span.obligatorio {
+    display: none;
+}
+
+.botones {
+    width: 10%;
+}
+
+select {
+    height: 30px;
+    width: 350px;
+}
